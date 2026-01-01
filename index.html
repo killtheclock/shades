@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[SH4D] Academy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Load marked.js from CDN to convert Markdown → HTML -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+
+<header>
+  <div class="burger" onclick="toggleMenu()">☰</div>
+  <div class="header-title">[SH4D] Academy</div>
+</header>
+
+<nav id="menu">
+  <div class="menu-inner">
+    <!-- Your full menu stays exactly the same -->
+    <a href="#sh4d-academy" class="menu-title" onclick="go()">SH4D Academy</a>
+    <a href="#introduction" class="sub" onclick="go()">Introduction</a>
+
+    <a href="#basics" class="menu-title" onclick="go()">Basics</a>
+    <a href="#early-strategy" class="sub" onclick="go()">Early Strategy</a>
+    <a href="#screen-layout" class="sub" onclick="go()">Screen Layout</a>
+    <a href="#headquarters-screen" class="sub" onclick="go()">Headquarters Screen</a>
+    <a href="#world-screen" class="sub" onclick="go()">World Screen</a>
+
+    <a href="#heroes" class="menu-title" onclick="go()">Heroes</a>
+    <a href="#recruiting-hero-selection" class="sub" onclick="go()">Recruiting & Hero Selection</a>
+    <a href="#upgrading-starring-up" class="sub" onclick="go()">Upgrading & Starring Up</a>
+    <a href="#equipment" class="sub" onclick="go()">Equipment</a>
+    <a href="#skills" class="sub" onclick="go()">Skills</a>
+    <a href="#factions" class="sub" onclick="go()">Factions</a>
+
+    <a href="#places-activities" class="menu-title" onclick="go()">Places & Activities</a>
+    <a href="#shop" class="sub" onclick="go()">Shop</a>
+    <a href="#modification-garage" class="sub" onclick="go()">Modification Garage</a>
+    <a href="#bounty-missions" class="sub" onclick="go()">Bounty Missions</a>
+    <a href="#peak-arena" class="sub" onclick="go()">Peak Arena</a>
+    <a href="#intercity-trade" class="sub" onclick="go()">Intercity Trade</a>
+    <a href="#hero-battlefield" class="sub" onclick="go()">Hero Battlefield</a>
+    <a href="#refugees" class="sub" onclick="go()">Refugees</a>
+    <a href="#decorations" class="sub" onclick="go()">Decorations</a>
+    <a href="#outfit-shop" class="sub" onclick="go()">Outfit Shop</a>
+
+    <a href="#events" class="menu-title" onclick="go()">Events</a>
+    <a href="#full-preparedness" class="sub" onclick="go()">Full Preparedness</a>
+    <a href="#canyon-clash" class="sub" onclick="go()">Canyon Clash</a>
+    <a href="#survival-saga" class="sub" onclick="go()">Survival Saga</a>
+    <a href="#mines-melee" class="sub" onclick="go()">Mines Melee</a>
+    <a href="#zombie-siege" class="sub" onclick="go()">Zombie Siege</a>
+    <a href="#the-tyrant" class="sub" onclick="go()">The Tyrant</a>
+    <a href="#fury-lord" class="sub" onclick="go()">Fury Lord</a>
+    <a href="#state-chronicles" class="sub" onclick="go()">State Chronicles</a>
+    <a href="#territory-triumph" class="sub" onclick="go()">Territory Triumph</a>
+    <a href="#lucky-spin" class="sub" onclick="go()">Lucky Spin</a>
+    <a href="#gacha-go" class="sub" onclick="go()">Gacha Go</a>
+    <a href="#dawns-light" class="sub" onclick="go()">Dawn’s Light</a>
+    <a href="#vs-alliance-duel" class="sub" onclick="go()">VS – Alliance Duel</a>
+    <a href="#champion-duel" class="sub" onclick="go()">Champion Duel</a>
+    <a href="#state-vs-state" class="sub" onclick="go()">State vs State</a>
+  </div>
+</nav>
+
+<!-- Content will be injected here by JavaScript -->
+<main id="content"></main>
+
+<footer id="page-footer">
+  <p>
+    Join the <strong>SH4D</strong> community on Slack<br>
+    <a href="https://join.slack.com/t/sh4des/shared_invite/zt-3mfurrmow-rvUHvBkVv_eI_yy1gr7_ig" target="_blank">
+      Open Slack Invitation
+    </a>
+  </p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
