@@ -1,3 +1,5 @@
-# Shades_beta
-Beta
-https://killtheclock.github.io/Shades_beta/
+# Shades
+
+
+
+https://killtheclock.github.io/shades/
